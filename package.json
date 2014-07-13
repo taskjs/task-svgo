@@ -1,0 +1,36 @@
+{
+  "name": "task-svgo",
+  "version": "0.1.0",
+  "main": "lib/svgo.js",
+  "description": "Minify SVG files with svgo.",
+  "homepage": "https://github.com/taskjs/task-svgo",
+  "bugs": "https://github.com/taskjs/task-svgo/issues",
+  "author": {
+    "name": "Yuanyan Cao",
+    "email": "yuanyan.cao@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taskjs/task-svgo"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "keywords": [
+    "task",
+    "svg",
+    "min",
+    "svgo"
+  ],
+  "dependencies": {
+    "es6-promise": "^1.0.0",
+    "execution": "^0.1.2",
+    "record": "^0.2.0",
+    "svgo": "^0.4.4"
+  },
+  "scripts": {
+    "test": "node test/svgo_test"
+  }
+}
